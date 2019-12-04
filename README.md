@@ -1,7 +1,7 @@
 # for_the_sw
 
-this is about "data structure"
-all codes are regarding to data structure
+This is about "data structure".
+All codes are regarding to data structure.
 
 stack_merge_1
 : merge two stacks then make new stack. but only use push and pop
