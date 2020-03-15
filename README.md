@@ -1,4 +1,4 @@
-# for_the_sw
+# data_structure
 
 This is about "data structure".
 All codes are regarding to data structure.
