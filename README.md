@@ -2,6 +2,7 @@
 
 This is about "data structure".
 All codes are regarding to data structure class.
+Some parts of the codes are from the class.
 
 stack_merge_1
 : merge two stacks then make new stack. but only use push and pop
@@ -31,10 +32,14 @@ baseball_game
 
 HW (numbers)
 : homeworks for the class
+: some parts of the codes are from class pdf
+: some parts of the codes are for homeworks
 
 studying verilog (numbers)
 : studying verilog in the class
 : some basics regarding to "fundamentals of logic design"
+: most of the codes are from the textbook and pdf
+: some parts of the codes are for homeworks
 
 # information theory
 
