@@ -54,4 +54,4 @@ channel coding (numbers)
 : programming encoder and decoder
 : encoder - shift registers
 : decoder - viterbi algorithm
-: in <computation
+: in <computation>, determine the path
