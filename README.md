@@ -33,3 +33,4 @@ HW (numbers)
 
 studying verilog (numbers)
 : studying verilog for the class
+: some basics regarding to "fundamentals of logic design"
