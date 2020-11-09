@@ -1,7 +1,7 @@
 # data_structure
 
 This is about "data structure".
-All codes are regarding to data structure.
+All codes are regarding to data structure class.
 
 stack_merge_1
 : merge two stacks then make new stack. but only use push and pop
@@ -22,7 +22,7 @@ stack_merge_2
 # SoC programming
 
 This is about "Soc programming".
-All codes are regarding to it and programmed in the class.
+All codes are regarding to the class and programmed for it.
 Programming language is verilog.
 
 baseball_game
@@ -33,7 +33,7 @@ HW (numbers)
 : homeworks for the class
 
 studying verilog (numbers)
-: studying verilog for the class
+: studying verilog in the class
 : some basics regarding to "fundamentals of logic design"
 
 # information theory
@@ -44,14 +44,14 @@ The codes are programmed in the MATLAB.
 
 
 huffman coding (numbers)
-: programming Huffman coding algorith
+: programming Huffman coding algorithm as an project
 : more common symbols are generally represented using fewer bits than less common symbols
 : using bits as less as you can
 : if you try, you can get queues as the results
 : you can get 3 cases as maximum
 
 channel coding (numbers)
-: programming encoder and decoder
+: programming encoder and decoder as an progject
 : encoder - shift registers
 : decoder - viterbi algorithm
 : in <computation>, determine the path
