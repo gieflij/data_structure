@@ -1,0 +1,49 @@
+function[possA_de, possB_de, possA_sel, possB_sel, mat_possA, mat_possB, pA_sum, pB_sum] = set_path_simple(index, p1_sum, p2_sum, poss_de, poss1_sel, poss2_sel, mat_poss1, mat_poss2)
+
+PS_com = [p1_sum, p2_sum];
+PS_com = sort(PS_com);
+
+%if have two paths
+%first path
+if p1_sum ~= p2_sum
+    if PS_com(1) == p1_sum
+        possA_de = poss_de;
+        possA_de(index) = 0;
+        possA_sel = poss1_sel;
+        mat_possA = mat_poss1;
+        pA_sum = p1_sum;
+    elseif PS_com(1) == p2_sum
+        possA_de = poss_de;
+        possA_de(index) = 1;
+        possA_sel = poss2_sel;
+        mat_possA = mat_poss1;
+        pA_sum = p2_sum;
+    end
+%second path
+    if PS_com(2) == p1_sum
+        possB_de = poss_de;
+        possB_de(index) = 0;
+        possB_sel = poss1_sel;
+        mat_possB = mat_poss1;
+        pB_sum = p1_sum;
+    elseif PS_com(2) == p2_sum
+        possB_de = poss_de;
+        possB_de(index) = 1;
+        possB_sel = poss2_sel;
+        mat_possB = mat_poss2;
+        pB_sum = p2_sum;
+    end
+else
+    possA_de = poss_de;
+    possB_de = poss_de;
+    possA_de(index) = 0;
+    possB_de(index) = 1;
+    possA_sel = poss1_sel;
+    possB_sel = poss2_sel;
+    mat_possA = mat_poss1;
+    mat_possB = mat_poss2;
+    pA_sum = p1_sum;
+    pB_sum = p2_sum;
+end
+
+end
