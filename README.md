@@ -23,6 +23,7 @@ stack_merge_2
 
 This is about "Soc programming".
 All codes are regarding to it and programmed in the class.
+Programming language is verilog.
 
 baseball_game
 : project for the class.
@@ -34,3 +35,23 @@ HW (numbers)
 studying verilog (numbers)
 : studying verilog for the class
 : some basics regarding to "fundamentals of logic design"
+
+# information theory
+
+This is about "Information theory"
+All codes are regarding to it.
+The codes are programmed in the MATLAB.
+
+
+huffman coding (numbers)
+: programming Huffman coding algorith
+: more common symbols are generally represented using fewer bits than less common symbols
+: using bits as less as you can
+: if you try, you can get queues as the results
+: you can get 3 cases as maximum
+
+channel coding (numbers)
+: programming encoder and decoder
+: encoder - shift registers
+: decoder - viterbi algorithm
+: in <computation
