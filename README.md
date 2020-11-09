@@ -1,4 +1,4 @@
-# data_structure
+# Data_structure
 
 This is about "data structure".
 All codes are regarding to data structure class.
@@ -20,7 +20,7 @@ stack_merge_2
 : after push, get a new stack which is {0,5,1,6,2,7,3,8,4,9}
 : pop from 9 to 0
 
-# SoC programming
+# SoC_programming
 
 This is about "Soc programming".
 All codes are regarding to the class and programmed for it.
@@ -41,7 +41,7 @@ studying verilog (numbers)
 : most of the codes are from the textbook and pdf
 : some parts of the codes are for homeworks
 
-# information theory
+# Information_theory
 
 This is about "Information theory".
 All codes are regarding to it.
