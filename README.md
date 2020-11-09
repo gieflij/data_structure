@@ -43,7 +43,7 @@ studying verilog (numbers)
 
 # information theory
 
-This is about "Information theory"
+This is about "Information theory".
 All codes are regarding to it.
 The codes are programmed in the MATLAB.
 
