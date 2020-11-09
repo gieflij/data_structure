@@ -30,3 +30,6 @@ baseball_game
 
 HW (numbers)
 : homeworks for the class
+
+studying verilog (numbers)
+: studying verilog for the class
