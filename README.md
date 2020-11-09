@@ -18,3 +18,15 @@ stack_merge_2
 : push each elements by turns
 : after push, get a new stack which is {0,5,1,6,2,7,3,8,4,9}
 : pop from 9 to 0
+
+# SoC programming
+
+This is about "Soc programming".
+All codes are regarding to it and programmed in the class.
+
+baseball_game
+: project for the class.
+: using TEXTLCD, LED, 7-SEGMENT, TXTLCD, BUTTONS 
+
+HW (numbers)
+: homeworks for the class
