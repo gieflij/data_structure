@@ -116,7 +116,7 @@
 - HW와 studying_verilog의 코드들은 일부는 수업 자료를 바탕으로, 일부는 스스로 프로그래밍을 함
 - project (baseball_game)은 팀 프로젝트 형태로 수행, 팀원들과 함께 프로그래밍함
 
-## HW
+## [HW](https://github.com/gieflij/sw_github/tree/master/SoC_programming/HW)
 : 수업에서 과제로 제출했던 verilog code
 
 ## studying_verilog
