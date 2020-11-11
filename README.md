@@ -1,7 +1,9 @@
 # Data_structure
 
 This is about "data structure".
+
 All codes are regarding to data structure class.
+
 Some parts of the codes are from the class.
 
 ## stack_merge_1
@@ -23,7 +25,9 @@ Some parts of the codes are from the class.
 # SoC_programming
 
 This is about "Soc programming".
+
 All codes are regarding to the class and programmed for it.
+
 Programming language is verilog.
 
 ## baseball_game
@@ -50,7 +54,9 @@ Programming language is verilog.
 # Information_theory
 
 This is about "Information theory".
+
 All codes are regarding to it.
+
 The codes are programmed in the MATLAB.
 
 
