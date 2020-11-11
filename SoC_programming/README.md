@@ -21,10 +21,13 @@ group size는 4로 설정
 
 ### Result
 
+--------------------------------------------------------------------------
+
 testbench 결과 저장 : result.txt
 
 ![image](https://user-images.githubusercontent.com/45198475/98804939-37fe4780-245a-11eb-8a05-ab203929ce2d.png)
 
+--------------------------------------------------------------------------
 
 ## project
 
@@ -32,12 +35,18 @@ testbench 결과 저장 : result.txt
 
 ### 실습1
 
+--------------------------------------------------------------------------
+
 - verilog HDL을 이용한 combinational logic circuit 설계
   - 3-to-8 decoder
   - 4 input multiplexer
   - 4 bit rippple carry adder
+  
+--------------------------------------------------------------------------
 
 ### test execution
+
+--------------------------------------------------------------------------
 
 #### 1. decoder simulation
 
@@ -83,8 +92,12 @@ testbench 결과 저장 : result.txt
   add_force {/ripple_carry_adder/sub} -radix bin {0 10ns} {1 50ns}
   run 100ns
   ```
+  
+--------------------------------------------------------------------------
 
 ### results
+
+--------------------------------------------------------------------------
 
 #### 1. decoder simulation
 
@@ -98,18 +111,23 @@ testbench 결과 저장 : result.txt
 
 ![image](https://user-images.githubusercontent.com/45198475/98808534-9da10280-245f-11eb-9813-2c311242250d.png)
 
-
+--------------------------------------------------------------------------
 
 
 ### 실습2
+
+-------------------------------------------------------------------------
 
 - verilog HDL을 이용한 sequential logic circuit 설계
   - JK flip flop
   - 4 bit synchronous BCD counter
   - finite state machine (FSM)
   
+--------------------------------------------------------------------------
   
 ### test execution
+
+-----------------------------------------------------------------------
 
 #### 1. JK flip flop
 
@@ -137,6 +155,10 @@ testbench 결과 저장 : result.txt
 
 #### 3. FSM : vending machine
 
+- vending machine의 FSM
+
+![image](https://user-images.githubusercontent.com/45198475/98811652-87e20c00-2464-11eb-94e7-722b85d29d04.png)
+
 - vending_machine.v 작성
  
 - tb_vending_machine.v 작성
@@ -145,7 +167,11 @@ testbench 결과 저장 : result.txt
 
 - Run Simulation
 
+--------------------------------------------------------------------------
+
 ### results
+
+--------------------------------------------------------------------------
 
 #### 1. JK filp flop
 
@@ -159,3 +185,5 @@ testbench 결과 저장 : result.txt
 #### 3. FSM : vending machine
 
 ![image](https://user-images.githubusercontent.com/45198475/98811283-f1ade600-2463-11eb-892f-51a2d7db6db5.png)
+
+--------------------------------------------------------------------------
