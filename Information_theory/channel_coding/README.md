@@ -27,7 +27,7 @@ Channel은 p = 0일 때의 BSC (Binary Symmetric Channel) 이용
 ## Test execution
 
 
-## RESULTS
+## Results
 
 1. BSC에서 p = 0 일 경우
 ![p_0](https://user-images.githubusercontent.com/45198475/98780506-33289c00-2438-11eb-96ba-a5b3f95a6b6e.PNG)
