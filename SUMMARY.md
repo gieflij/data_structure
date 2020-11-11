@@ -44,7 +44,7 @@
 
   ----------------------------------------------
 
-### [channel_coding](https://github.com/gieflij/sw_github/blob/master/Information_theory/channel_coding/README.md)
+### [channel_coding](https://github.com/gieflij/sw_github/tree/master/Information_theory/channel_coding)
 
 :기말 project의 일환으로 matlab에서 코딩
 
