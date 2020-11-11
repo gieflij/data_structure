@@ -68,5 +68,5 @@ The codes are programmed in the MATLAB.
 - encoder
   - shift registers
 -  decoder
-  - viterbi algorithm
+  -  viterbi algorithm
   
