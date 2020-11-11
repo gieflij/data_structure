@@ -6,7 +6,7 @@ All codes are regarding to data structure class.
 
 Some parts of the codes are from the class.
 
-## stack_merge_1
+### stack_merge_1
 : merge two stacks then make new stack. but only use push and pop
 - two stacks are {0,1,2,3,4} and {5,6,7,8,9}
 - first put {0,1,2,3,4}, and then put {5,6,7,8,9}
@@ -14,7 +14,7 @@ Some parts of the codes are from the class.
 - pop from 9 to 0
 
 
-## stack_merge_2
+### stack_merge_2
 : merge two stacks then make new stack. but only use push and pop
 - same as stack_merge_1, but need to get different result
 - first two stacks are {0,1,2,3,4} and {5,6,7,8,9}
@@ -35,13 +35,13 @@ Programming language is verilog.
 - using TEXTLCD, LED, 7-SEGMENT, TXTLCD, BUTTONS 
 
 
-## HW (numbers)
+## HW
 : homeworks for the class
   - some parts of the codes are from class pdf
   - some parts of the codes are for homeworks
 
 
-## studying verilog (numbers)
+## studying_verilog
 : studying verilog in the class
 
 : some basics regarding to "fundamentals of logic design"
@@ -60,7 +60,7 @@ All codes are regarding to it.
 The codes are programmed in the MATLAB.
 
 
-## huffman coding (numbers)
+## huffman_coding
 : programming Huffman coding algorithm as an project
 - more common symbols are generally represented using fewer bits than less common symbols
 - using bits as less as you can
@@ -68,7 +68,7 @@ The codes are programmed in the MATLAB.
 - you can get 3 cases as maximum
 
 
-## channel coding (numbers)
+## channel_coding
 : programming encoder and decoder as an progject
 
 - encoder
