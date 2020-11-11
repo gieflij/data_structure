@@ -9,7 +9,7 @@
 - 2개의 stack을 합성해서 하나의 stack으로 생성
 - push와 pop만 이용
 
-### [stack_merge_1](https://github.com/gieflij/sw_github/tree/master/Data_structure/stack_merge_1)
+### 1. [stack_merge_1](https://github.com/gieflij/sw_github/tree/master/Data_structure/stack_merge_1)
 
 - 동작 설명
 
@@ -20,7 +20,7 @@
     
    ------------------------------------------------
     
-### [stack_merge_2](https://github.com/gieflij/sw_github/tree/master/Data_structure/stack_merge_2)
+### 2. [stack_merge_2](https://github.com/gieflij/sw_github/tree/master/Data_structure/stack_merge_2)
 
 - 동작 설명
 
@@ -44,7 +44,7 @@
 : 모든 내용들은 수업의 프로젝트 일환으로 스스로 구상 및 프로그래밍
 
 
-### [huffman_coding](https://github.com/gieflij/sw_github/tree/master/Information_theory/huffman_coding)
+### 1. [huffman_coding](https://github.com/gieflij/sw_github/tree/master/Information_theory/huffman_coding)
 
 : 중간 project의 일환으로 matlab에서 코딩
 
@@ -81,7 +81,7 @@
     
     ----------------------------------------------
 
-### [channel_coding](https://github.com/gieflij/sw_github/tree/master/Information_theory/channel_coding)
+### 2. [channel_coding](https://github.com/gieflij/sw_github/tree/master/Information_theory/channel_coding)
 
 :기말 project의 일환으로 matlab에서 코딩
 
@@ -116,12 +116,12 @@
 - HW와 studying_verilog의 코드들은 일부는 수업 자료를 바탕으로, 일부는 스스로 프로그래밍을 함
 - project (baseball_game)은 팀 프로젝트 형태로 수행, 팀원들과 함께 프로그래밍함
 
-## [HW](https://github.com/gieflij/sw_github/tree/master/SoC_programming/HW)
+### 1. [HW](https://github.com/gieflij/sw_github/tree/master/SoC_programming/HW)
 : 수업에서 과제로 제출했던 verilog code
 
-## [studying_verilog](https://github.com/gieflij/sw_github/tree/master/SoC_programming/studying_verilog)
+### 2. [studying_verilog](https://github.com/gieflij/sw_github/tree/master/SoC_programming/studying_verilog)
 : 수업 중과 수업 후 과제로 제출했던 verilog code
 
-## [project](https://github.com/gieflij/sw_github/tree/master/SoC_programming/project)
+### 3. [project](https://github.com/gieflij/sw_github/tree/master/SoC_programming/project)
 : baseball_game은 숫자 야구를 구현
 
