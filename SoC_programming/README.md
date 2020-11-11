@@ -76,7 +76,7 @@ testbench 결과 저장 : result.txt
 
 - Run Simulation
 
--add_force commands 입력
+- add_force commands 입력
   ```
   add_force {/ripple_carry_adder/x} -radix unsigned {2 10ns} {6 20ns} {11 30ns} {15 40ns} -repeat_every 40ns
   add_force {/ripple_carry_adder/y} -radix unsigned {0 10ns} {5 20ns} {9 30ns} {15 40ns} -repeat_every 40ns
@@ -96,6 +96,8 @@ testbench 결과 저장 : result.txt
 
 3. 4 bit ripple carry adder
 
+![image](https://user-images.githubusercontent.com/45198475/98808534-9da10280-245f-11eb-9813-2c311242250d.png)
+
 
 
 
@@ -105,3 +107,8 @@ testbench 결과 저장 : result.txt
   - JK flip flop
   - 4 bit synchronous BCD counter
   - finite state machine (FSM)
+  
+  
+### test execution
+
+### results
