@@ -24,3 +24,38 @@ group size는 4로 설정
 testbench 결과 저장 : result.txt
 
 ![image](https://user-images.githubusercontent.com/45198475/98804939-37fe4780-245a-11eb-8a05-ab203929ce2d.png)
+
+
+## project
+
+## studying_verilog
+
+### 실습1
+
+- verilog HDL을 이용한 combinational logic circuit 설계
+  - 3-to-8 decoder
+  - 2 input multiplexer, 4 input multiplexer
+  - 4 bit rippple carry adder
+
+### test execution
+
+1. decoder simulation
+
+- decoder module을 simulation sources에서 top module로 설정
+
+- add_force command 입력
+  ```
+  add_force{/decoder/enable} -radix bin {1 10ns} {0 100ns}
+  add_force {/decoder/c} -radix bin {0 10ns} {1 20ns} -repeat_every20ns
+  add_force {/decoder/b} -radix bin {0 10ns} {1 30ns} -repeat_every40ns
+  add_force {/decoder/a} -radix bin {0 10ns} {1 50ns} -repeat_every80ns
+  run 200ns
+  ```
+
+
+### 실습2
+
+- verilog HDL을 이용한 sequential logic circuit 설계
+  - JK flip flop
+  - 4 bit synchronous BCD counter
+  - finite state machine (FSM)
