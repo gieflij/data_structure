@@ -25,7 +25,7 @@
 : 수업 중과 수업 후 과제로 제출했던 verilog code
 
 ## project
-: baseball_game은 숫자 야구를 프로젝트로 구현했던 verilog code
+: baseball_game은 숫자 야구를 verilog code로 구현
 
 
 
