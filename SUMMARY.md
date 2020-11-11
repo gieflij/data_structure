@@ -52,6 +52,7 @@
   - decoder는 viterbi algorithm 이용
   - channel은 p =0일 때의 BSC (Binary Symmetric Channel) 이용
   - 코드 설명
+    - 어떤 state에서든 항상 **computation.m**은 path를 결정하기 
 
 
 
