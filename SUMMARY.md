@@ -10,8 +10,8 @@
 - merge 2 stacks using pop and push only
   - stack_merge_1
     --------------------------------------
-    2개의 stack을 합성해서 하나의 stack으로 생성
-    push와 pop만 이용
+    - 2개의 stack을 합성해서 하나의 stack으로 생성
+    - push와 pop만 이용
     
     --------------------------------------
   - stack_merge_2
