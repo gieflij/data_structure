@@ -11,3 +11,5 @@ Convolutional code decoding: viterbi algorithm
 ![viterbi](https://user-images.githubusercontent.com/45198475/98774889-42571c00-242f-11eb-8c7f-35ce97428ad8.PNG)
 ---------------------------------------------------
 - Viterbi algorithm tracks the smallest path metric based on hamming distance.
+- Hamming distance can be decided by comparing the received bits and the output bits.
+- Choose the smallest hamming distance and decide bits.
