@@ -119,7 +119,7 @@
 ## [HW](https://github.com/gieflij/sw_github/tree/master/SoC_programming/HW)
 : 수업에서 과제로 제출했던 verilog code
 
-## studying_verilog
+## [studying_verilog](https://github.com/gieflij/sw_github/tree/master/SoC_programming/studying_verilog)
 : 수업 중과 수업 후 과제로 제출했던 verilog code
 
 ## [project](https://github.com/gieflij/sw_github/tree/master/SoC_programming/project)
