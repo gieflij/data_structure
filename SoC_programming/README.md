@@ -111,4 +111,18 @@ testbench 결과 저장 : result.txt
   
 ### test execution
 
+#### 1. JK flip flop
+
+- jk_ff.v 작성
+
+- tb_jk_ff.v 작성
+
+- 완성된 testbench를 simulation sources에서 top으로 지정
+
+- Run Simulation
+
 ### results
+
+#### 1. JK filp flop
+
+
