@@ -36,10 +36,13 @@
 : 모든 내용들은 수업의 프로젝트 일환으로 스스로 구상 및 프로그래밍
 
 
-### huffman_coding
+### [huffman_coding](https://github.com/gieflij/sw_github/tree/master/Information_theory/huffman_coding)
 
 : 중간 project의 일환으로 matlab에서 코딩
 
+  - Huffman constructs a code tree **from the bottom to up**
+  - Bits of each codeword are constructed **from right to left**
+  
   ----------------------------------------------
 
   ----------------------------------------------
