@@ -130,7 +130,7 @@
   - result: result.txt에서 확인 가능
 
 ### 2. [project](https://github.com/gieflij/sw_github/tree/master/SoC_programming/project)
-: baseball_game은 숫자 야구를 구현
+: baseball_game은 숫자 야구 게임을 구현
 
 - 숫자 야구 게임을 구성
 - 사용 소자
