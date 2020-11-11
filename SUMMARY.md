@@ -68,7 +68,7 @@
 
 
 
-# 3. SoC_programming 
+# 3. [SoC_programming](https://github.com/gieflij/sw_github/tree/master/SoC_programming)
 
 ## ITEC412001 SoC 설계 및 프로그래밍/2020년 1학기/문병인
 
