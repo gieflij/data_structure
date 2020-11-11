@@ -1,5 +1,11 @@
 # SoC programming
 
+## 실습 환경
+
+- Vivado 19.1
+
+- target device: xc7z020clg484-1
+
 ## HW
 
 ### adder 설명
@@ -27,9 +33,39 @@ testbench 결과 저장 : result.txt
 
 ![image](https://user-images.githubusercontent.com/45198475/98804939-37fe4780-245a-11eb-8a05-ab203929ce2d.png)
 
---------------------------------------------------------------------------
+
 
 ## project
+
+### Baseball game
+
+#### Rules
+
+- 게임 시작과 동시에 생성된 3자리 난수 맞추기
+
+- 3번의 기회
+
+- 1분 안에 숫자를 정확히 맞추면 성공
+  - STRIKE: 숫자와 자리가 동시에 일치
+  - BALL: 자리는 다르지만 숫자가 일치
+  - OUT: 어떤 숫자도 일치하지 않음
+  
+#### 사용 소자
+
+- TFT LCD
+- TEXT LCD
+- LED
+- PUSH BUTTON
+- 7 SEGMENT
+
+#### 동작 설명
+
+- TFT LCD에는 게임 규칙이 띄워져 있음
+- SW를 눌러서 숫자 설정
+- TEXT LCD에는 LIFE, 게임 결과, 정답 출력
+- LED 개수로 LIFE 수를 나타냄
+- 7 SEGMENT에는 TIMER와 입력한 숫자 표시
+
 
 ## studying_verilog
 
@@ -42,9 +78,8 @@ testbench 결과 저장 : result.txt
   - 4 input multiplexer
   - 4 bit rippple carry adder
   
---------------------------------------------------------------------------
 
-### test execution
+### Test execution
 
 --------------------------------------------------------------------------
 
@@ -93,9 +128,8 @@ testbench 결과 저장 : result.txt
   run 100ns
   ```
   
---------------------------------------------------------------------------
 
-### results
+### Results
 
 --------------------------------------------------------------------------
 
@@ -111,7 +145,6 @@ testbench 결과 저장 : result.txt
 
 ![image](https://user-images.githubusercontent.com/45198475/98808534-9da10280-245f-11eb-9813-2c311242250d.png)
 
---------------------------------------------------------------------------
 
 
 ### 실습2
@@ -123,9 +156,8 @@ testbench 결과 저장 : result.txt
   - 4 bit synchronous BCD counter
   - finite state machine (FSM)
   
---------------------------------------------------------------------------
   
-### test execution
+### Test execution
 
 -----------------------------------------------------------------------
 
@@ -167,9 +199,9 @@ testbench 결과 저장 : result.txt
 
 - Run Simulation
 
---------------------------------------------------------------------------
 
-### results
+
+### Results
 
 --------------------------------------------------------------------------
 
@@ -186,4 +218,4 @@ testbench 결과 저장 : result.txt
 
 ![image](https://user-images.githubusercontent.com/45198475/98811283-f1ade600-2463-11eb-892f-51a2d7db6db5.png)
 
---------------------------------------------------------------------------
+
