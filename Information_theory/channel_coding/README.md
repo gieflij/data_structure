@@ -7,18 +7,29 @@ Channel encoder, channel and channel decoder construct a basic model for the inf
 --------------------------------------------------------
 Encoder는 shift registers의 개념 이용
 
+Channel은 p = 0일 때의 BSC (Binary Symmetric Channel) 이용
+
 Decoder는 Viterbi algorithm을 이용해서 구상
 
-Channel은 p = 0일 때의 BSC (Binary Symmetric Channel) 이용
 
 ## Convolutional code encoding: shift register
 ---------------------------------------------
 ![shift_register](https://user-images.githubusercontent.com/45198475/98774886-3ff4c200-242f-11eb-9f44-408003c69687.PNG)
+
 ---------------------------------------------
+
+## channel model - Binary Symmetric Channel (BSC)
+
+----------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/45198475/98816703-6ab13b80-246c-11eb-808a-f96ddfa763fc.png)
+
+-------------------------------------------------------------------
 
 ## Convolutional code decoding: viterbi algorithm
 --------------------------------------------------
 ![viterbi](https://user-images.githubusercontent.com/45198475/98774889-42571c00-242f-11eb-8c7f-35ce97428ad8.PNG)
+
 ---------------------------------------------------
 - Viterbi algorithm tracks the smallest path metric based on hamming distance.
 - Hamming distance can be decided by comparing the received bits and the output bits.
@@ -31,6 +42,7 @@ figure 1과 2로 결과 확인 가능
 test_channel
 ```
 **channel_coding.m**에서 mat_ch = bsc(mat_en, 0.3)에서 0.3은 p를 의미함
+
 p = 0 인 경우를 test 하고 싶을 경우 0.3 대신 0으로 입력
 
 
