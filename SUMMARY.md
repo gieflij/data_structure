@@ -43,9 +43,13 @@
   - Huffman constructs a code tree **from the bottom to up**
   - Bits of each codeword are constructed **from right to left**
   
-  ----------------------------------------------
-
-  ----------------------------------------------
+  
+  - 조건
+    ----------------------------------------------
+      - Huffman coding algorithm은 아래에서부터 위로 가는 순서로 coding tree 생성
+      - coding tree의 leaf는 하나의 root와 2개의 leaf 기준으로, 항상 왼쪽 leaf가 덜 빈번하게 나타나는 알파벳을 지님
+    
+    ----------------------------------------------
 
 ### [channel_coding](https://github.com/gieflij/sw_github/tree/master/Information_theory/channel_coding)
 
