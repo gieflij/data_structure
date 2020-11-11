@@ -69,9 +69,8 @@ The codes are programmed in the MATLAB.
 ## channel coding (numbers)
 : programming encoder and decoder as an progject
 
-: encoder - shift registers
-
-: decoder - viterbi algorithm
-
-: in <computation>, determine the path
+- encoder
+  - shift registers
+-  decoder
+  - viterbi algorithm
   
