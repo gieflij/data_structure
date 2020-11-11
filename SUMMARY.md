@@ -1,6 +1,5 @@
 # 1. Data_structure
 
-## 교과목형
 ## COME331003 자료구조/2018년 2학기/박대진
 
 : 자료구조 수업에서 과제로 수행
@@ -30,7 +29,6 @@
 
 # 2. Information_theory
 
-## 교과목형
 ## ELEC473001 정보및부호이론/2020년 1학기/박정훈
 
 : 모든 내용들은 수업과 연관됨
@@ -39,14 +37,21 @@
 
 
 ### huffman_coding
+
 : 중간 project의 일환으로 matlab에서 코딩
+
 ----------------------------------------------
+
 ----------------------------------------------
 
 ### channel_coding
+
 :기말 project의 일환으로 matlab에서 코딩
 
 ----------------------------------------------
+encoder는 shift registers의 개념 이용
+decoder는 viterbi algorithm 이용
+channel은 p =0일 때의 BSC (Binary Symmetric Channel) 이용
 
 ----------------------------------------------
 
