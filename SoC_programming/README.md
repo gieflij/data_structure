@@ -34,7 +34,7 @@ testbench 결과 저장 : result.txt
 
 - verilog HDL을 이용한 combinational logic circuit 설계
   - 3-to-8 decoder
-  - 2 input multiplexer, 4 input multiplexer
+  - 4 input multiplexer
   - 4 bit rippple carry adder
 
 ### test execution
@@ -43,14 +43,43 @@ testbench 결과 저장 : result.txt
 
 - decoder module을 simulation sources에서 top module로 설정
 
-- add_force command 입력
+- Run Simulation
+
+- add_force commands 입력
   ```
-  add_force{/decoder/enable} -radix bin {1 10ns} {0 100ns}
-  add_force {/decoder/c} -radix bin {0 10ns} {1 20ns} -repeat_every20ns
-  add_force {/decoder/b} -radix bin {0 10ns} {1 30ns} -repeat_every40ns
-  add_force {/decoder/a} -radix bin {0 10ns} {1 50ns} -repeat_every80ns
+  add_force {/decoder/enable} -radix bin {1 10ns} {0 100ns}
+  add_force {/decoder/c} -radix bin {0 10ns} {1 20ns} -repeat_every 20ns
+  add_force {/decoder/b} -radix bin {0 10ns} {1 30ns} -repeat_every 40ns
+  add_force {/decoder/a} -radix bin {0 10ns} {1 50ns} -repeat_every 80ns
   run 200ns
   ```
+  
+2. 4-input multiplexer
+
+- 4 input multiplexer를 simulation sources에서 top module로 설정
+
+- Run Simulation
+
+- add_force commands 입력
+  ```
+  add_force {/mux_4/a} -radix bin {11 10ns}
+  add_force {/mux_4/b} -radix bin {10 10ns}
+  add_force {/mux_4/c} -radix bin {01 10ns}
+  add_force {/mux_4/d} -radix bin {00 10ns}
+  add_force {/mux_4/sel} -radix bin {00 10ns} {01 20ns} {10 30ns} {11 40ns} -repeat_every 40ns
+  run 100ns
+  ```
+
+
+### results
+
+1. decoder simulation
+
+![image](https://user-images.githubusercontent.com/45198475/98807309-ca541a80-245d-11eb-88ac-f8b67417f186.png)
+
+2. 4 input multiplexer
+
+
 
 
 ### 실습2
