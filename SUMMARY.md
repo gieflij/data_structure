@@ -113,15 +113,48 @@
 
 : 모든 코드들은 수업 자료를 바탕으로 구성
 
+: Vivado 19.1 
+
 - HW와 studying_verilog의 코드들은 일부는 수업 자료를 바탕으로, 일부는 스스로 프로그래밍을 함
 - project (baseball_game)은 팀 프로젝트 형태로 수행, 팀원들과 함께 프로그래밍함
 
 ### 1. [HW](https://github.com/gieflij/sw_github/tree/master/SoC_programming/HW)
 : 수업에서 과제로 제출했던 verilog code
 
-### 2. [studying_verilog](https://github.com/gieflij/sw_github/tree/master/SoC_programming/studying_verilog)
+- 16 bit two level carry-look-ahead adder
+  - 4개의 module로 구성
+    - adder
+    - clag
+    - cla_4bits
+    - cla_16bits
+  - result: result.txt에서 확인 가능
+
+### 2. [project](https://github.com/gieflij/sw_github/tree/master/SoC_programming/project)
+: baseball_game은 숫자 야구를 구현
+
+- 숫자 야구 게임을 구성
+- 사용 소자
+  - TFT LCD
+  - TEXT LCD
+  - LED
+  - PUSH BUTTON
+  - 7 SEGMENT
+- 동작 설명
+  - TFT LCD에는 게임 규칙이 띄워져있음
+  - SW를 눌러서 숫자 설정
+  - TEXT LCD에는 LIFE, 게임 결과, 정답 출력
+  - LED 개수로 LIFE 수 나타냄
+  - 7 SEGMENT에는 TIMER와 입력한 숫자 표시
+
+### 3. [studying_verilog](https://github.com/gieflij/sw_github/tree/master/SoC_programming/studying_verilog)
 : 수업 중과 수업 후 과제로 제출했던 verilog code
 
-### 3. [project](https://github.com/gieflij/sw_github/tree/master/SoC_programming/project)
-: baseball_game은 숫자 야구를 구현
+- 실습1 : verilog HDL을 이용한 combinational logic circuit 설계
+  - 3 to 8 decoder
+  - 4 input multiplexer
+  - 4 bit ripple carry adder
+- 실습2 : verilog HDL을 이용한 sequential logic circuit 설계
+  - JK flip flop
+  - 4 bit synchronous BCD counter
+  - FSM
 
