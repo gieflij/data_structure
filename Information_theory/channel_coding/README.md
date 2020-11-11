@@ -26,6 +26,13 @@ Channel은 p = 0일 때의 BSC (Binary Symmetric Channel) 이용
 
 ## Test execution
 
+figure 1과 2로 결과 확인 가능
+```
+test_channel
+```
+**channel_coding.m**에서 mat_ch = bsc(mat_en, 0.3)에서 0.3은 p를 의미함
+p = 0 인 경우를 test 하고 싶을 경우 0.3 대신 0으로 입력
+
 
 ## Results
 
