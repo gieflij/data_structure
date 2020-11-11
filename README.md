@@ -14,16 +14,11 @@ Some parts of the codes are from the class.
 
 ## stack_merge_2
 : merge two stacks then make new stack. but only use push and pop
-
-: same as stack_merge_1, but need to get different result
-
-: first two stacks are {0,1,2,3,4} and {5,6,7,8,9}
-
-: push each elements by turns
-
-: after push, get a new stack which is {0,5,1,6,2,7,3,8,4,9}
-
-: pop from 9 to 0
+- same as stack_merge_1, but need to get different result
+- first two stacks are {0,1,2,3,4} and {5,6,7,8,9}
+- push each elements by turns
+- after push, get a new stack which is {0,5,1,6,2,7,3,8,4,9}
+- pop from 9 to 0
 
 # SoC_programming
 
@@ -33,16 +28,13 @@ Programming language is verilog.
 
 ## baseball_game
 : project for the class.
-
-: using TEXTLCD, LED, 7-SEGMENT, TXTLCD, BUTTONS 
+- using TEXTLCD, LED, 7-SEGMENT, TXTLCD, BUTTONS 
 
 
 ## HW (numbers)
 : homeworks for the class
-
-: some parts of the codes are from class pdf
-
-: some parts of the codes are for homeworks
+  - some parts of the codes are from class pdf
+  - some parts of the codes are for homeworks
 
 
 ## studying verilog (numbers)
