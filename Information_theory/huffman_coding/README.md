@@ -11,6 +11,15 @@
 
 ## test execution
 
+code 내부의 prob를 변경해가면서 test 가능
+
+```
+huffman2
+
+또는
+
+huffman3
+```
 
 ## Results
 
