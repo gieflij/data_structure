@@ -1,6 +1,7 @@
 # channel_coding
 
 Channel encoder, channel and channel decoder construct a basic model for the information theory.
+
 -------------------------------------------------------
 ![code_no](https://user-images.githubusercontent.com/45198475/98775119-cc06e980-242f-11eb-93f7-f86c53695c5d.PNG)
 --------------------------------------------------------
