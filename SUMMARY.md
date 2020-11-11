@@ -20,7 +20,7 @@
     
    ------------------------------------------------
     
-### stack_merge_2
+### [stack_merge_2](https://github.com/gieflij/sw_github/tree/master/Data_structure/stack_merge_2)
 
 - 동작 설명
 
