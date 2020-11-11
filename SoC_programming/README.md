@@ -153,7 +153,9 @@ testbench 결과 저장 : result.txt
 
 #### 2. 4 bit BCD counter
 
+![image](https://user-images.githubusercontent.com/45198475/98811226-d511ae00-2463-11eb-9567-6780a2458a9b.png)
 
 
 #### 3. FSM : vending machine
 
+![image](https://user-images.githubusercontent.com/45198475/98811283-f1ade600-2463-11eb-892f-51a2d7db6db5.png)
