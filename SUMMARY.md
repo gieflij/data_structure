@@ -114,6 +114,6 @@
 ## studying_verilog
 : 수업 중과 수업 후 과제로 제출했던 verilog code
 
-## project
-: baseball_game은 숫자 야구를 verilog code로 구현
+## [project](https://github.com/gieflij/sw_github/tree/master/SoC_programming/project)
+: baseball_game은 숫자 야구를 구현
 
