@@ -2,8 +2,19 @@
 
 ## RESULTS
 
+1. BSC에서 p = 0 일 경우
+![p_0](https://user-images.githubusercontent.com/45198475/98780506-33289c00-2438-11eb-96ba-a5b3f95a6b6e.PNG)
 
+  - 빨간색은 not equal bit
+  - 파란색은 equal bit
+  - 1000번을 시도했고 모두 비슷한 결과 도출
+  - error probabiltiy mean은 0.3338로 고정
 
+2. BSC에서 p = 0.3 일 
+![p_0 3](https://user-images.githubusercontent.com/45198475/98780512-358af600-2438-11eb-9584-9649c87b9b71.PNG)
+
+  - p = 0인 경우에 비해 not equal bit의 수가 증가
+  - error probability mean은 0.4726
 
 
 Channel encoder, channel and channel decoder construct a basic model for the information theory.
