@@ -49,8 +49,8 @@
 :기말 project의 일환으로 matlab에서 코딩
 
   - encoder는 shift registers의 개념 이용
-  - decoder는 viterbi algorithm 이용
   - channel은 p =0일 때의 BSC (Binary Symmetric Channel) 이용
+  - decoder는 viterbi algorithm 이용
   - 흐름 설명
   
     -------------------------------------------------
