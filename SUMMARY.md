@@ -51,8 +51,15 @@
   - encoder는 shift registers의 개념 이용
   - decoder는 viterbi algorithm 이용
   - channel은 p =0일 때의 BSC (Binary Symmetric Channel) 이용
-  - 코드 설명
-    - 어떤 state에서든 항상 **computation.m**은 path를 결정하기 
+  - 흐름 설명
+  ```
+    - bit를 받아서 encoding을 통해 channel 생성, 생성된 channel을 decoder로 decoding
+    - encoder에서는 1000 bit를 0과 1로 무작위 생성
+    - decoder에서는 항상 initial state는 00으로 시작
+      - **computation.m**은 4가지 path의 hamming distance의 합 산출
+      - **set_path함수**는 4가지 path 중 최대 2가지 path 선정
+      - 2개의 path가 동일한 hamming distance를 가질 경우 random하게 path 선정
+  ```
 
 
 
