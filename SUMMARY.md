@@ -54,9 +54,13 @@
 
 - 코드 설명
   ---------------------------------------------------------
-  - channel dencoder, BSC
+  - channel encoder, BSC
     - original input 1000 bit는 0과 1로 무작위 생성
     - convolutional encoding 단계에서 한 번에 2 bit씩 불러와 p1과 p0 간단히 생성
+  - channel decoder
+    - viterbi algorithm을 바탕으로 코드를 관통하는 규칙 설정
+    - <computation.m>은 4가지 path의 hamming distance의 합을 산출
+    - <set_path.m>, <set_path2.m>, <set_path_simple.m>은 4가지 path 중 최대 2가지 path 
   ---------------------------------------------------------
 
 
