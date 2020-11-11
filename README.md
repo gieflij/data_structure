@@ -56,14 +56,10 @@ The codes are programmed in the MATLAB.
 
 ## huffman coding (numbers)
 : programming Huffman coding algorithm as an project
-
-: more common symbols are generally represented using fewer bits than less common symbols
-
-: using bits as less as you can
-
-: if you try, you can get queues as the results
-
-: you can get 3 cases as maximum
+- more common symbols are generally represented using fewer bits than less common symbols
+- using bits as less as you can
+- if you try, you can get queues as the results
+- you can get 3 cases as maximum
 
 
 ## channel coding (numbers)
