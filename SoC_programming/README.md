@@ -41,7 +41,7 @@ testbench 결과 저장 : result.txt
 
 1. decoder simulation
 
-- decoder module을 simulation sources에서 top module로 설정
+- decoder module을 simulation sources에서 top module로 지정
 
 - Run Simulation
 
@@ -56,7 +56,7 @@ testbench 결과 저장 : result.txt
   
 2. 4-input multiplexer
 
-- 4 input multiplexer를 simulation sources에서 top module로 설정
+- 4 input multiplexer를 simulation sources에서 top module로 지정
 
 - Run Simulation
 
@@ -70,6 +70,19 @@ testbench 결과 저장 : result.txt
   run 100ns
   ```
 
+3. 4-bit ripple-carry adder
+
+- 4 bit ripple carry adder module을 simulation sources에서 top module로 지정
+
+- Run Simulation
+
+-add_force commands 입력
+  ```
+  add_force {/ripple_carry_adder/x} -radix unsigned {2 10ns} {6 20ns} {11 30ns} {15 40ns} -repeat_every 40ns
+  add_force {/ripple_carry_adder/y} -radix unsigned {0 10ns} {5 20ns} {9 30ns} {15 40ns} -repeat_every 40ns
+  add_force {/ripple_carry_adder/sub} -radix bin {0 10ns} {1 50ns}
+  run 100ns
+  ```
 
 ### results
 
@@ -78,6 +91,10 @@ testbench 결과 저장 : result.txt
 ![image](https://user-images.githubusercontent.com/45198475/98807309-ca541a80-245d-11eb-88ac-f8b67417f186.png)
 
 2. 4 input multiplexer
+
+![image](https://user-images.githubusercontent.com/45198475/98807914-b3fa8e80-245e-11eb-8557-927081279b99.png)
+
+3. 4 bit ripple carry adder
 
 
 
