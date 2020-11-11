@@ -1,4 +1,4 @@
-# 1. [Data_structure](https://github.com/gieflij/sw_github/tree/master/Data_structure)
+# 1. [Data_structure]
 
 ## COME331003 자료구조/2018년 2학기/박대진
 
