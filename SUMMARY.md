@@ -36,32 +36,32 @@
 : 모든 내용들은 수업의 프로젝트 일환으로 스스로 구상 및 프로그래밍
 
 
-### huffman_coding
+- huffman_coding
 
 : 중간 project의 일환으로 matlab에서 코딩
 
-----------------------------------------------
+  ----------------------------------------------
 
-----------------------------------------------
+  ----------------------------------------------
 
-### channel_coding
+- channel_coding
 
 :기말 project의 일환으로 matlab에서 코딩
 
-- encoder는 shift registers의 개념 이용
-- decoder는 viterbi algorithm 이용
-- channel은 p =0일 때의 BSC (Binary Symmetric Channel) 이용
+  - encoder는 shift registers의 개념 이용
+  - decoder는 viterbi algorithm 이용
+  - channel은 p =0일 때의 BSC (Binary Symmetric Channel) 이용
 
-- 코드 설명
-  ---------------------------------------------------------
-  - channel encoder, BSC
-    - original input 1000 bit는 0과 1로 무작위 생성
-    - convolutional encoding 단계에서 한 번에 2 bit씩 불러와 p1과 p0 간단히 생성
-  - channel decoder
-    - viterbi algorithm을 바탕으로 코드를 관통하는 규칙 설정
-    - <computation.m>은 4가지 path의 hamming distance의 합을 산출
-    - <set_path.m>, <set_path2.m>, <set_path_simple.m>은 4가지 path 중 최대 2가지 path 
-  ---------------------------------------------------------
+  - 코드 설명
+    ---------------------------------------------------------
+    - channel encoder, BSC
+      - original input 1000 bit는 0과 1로 무작위 생성
+      - convolutional encoding 단계에서 한 번에 2 bit씩 불러와 p1과 p0 간단히 생성
+    - channel decoder
+      - viterbi algorithm을 바탕으로 코드를 관통하는 규칙 설정
+      - <computation.m>은 4가지 path의 hamming distance의 합을 산출
+      - <set_path.m>, <set_path2.m>, <set_path_simple.m>은 4가지 path 중 최대 2가지 path 
+    ---------------------------------------------------------
 
 
 #### 
