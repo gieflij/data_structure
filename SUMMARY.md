@@ -4,8 +4,9 @@
 
 : 모든 내용들은 수업과 연관됨
 
+- merge 2 stacks using pop and push only
 
-: merge 2 stacks using pop and push only
+
 
 
 # ITEC412001 SoC 설계 및 프로그래밍/2020년 1학기/문병인
@@ -36,7 +37,7 @@
 : 모든 내용들은 수업의 프로젝트 일환으로 스스로 구상 및 프로그래밍
 
 
-## huffman coding\
+## huffman coding
 : 중간 project의 일환으로 matlab에서 코딩
 
 ## channel coding (numbers)
