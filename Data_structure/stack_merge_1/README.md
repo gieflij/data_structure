@@ -16,5 +16,7 @@
 
 make all
 
+
 ## Result
 
+![stack1](https://user-images.githubusercontent.com/45198475/98787432-d7174500-2442-11eb-9cf9-540a3e076217.PNG)
