@@ -28,7 +28,26 @@
 
 
 
-# 2. 
+# 2. Information_theory
+
+## 교과목형
+## ELEC473001 정보및부호이론/2020년 1학기/박정훈
+
+: 모든 내용들은 수업과 연관됨
+
+: 모든 내용들은 수업의 프로젝트 일환으로 스스로 구상 및 프로그래밍
+
+
+### huffman_coding
+: 중간 project의 일환으로 matlab에서 코딩
+
+### channel_coding
+:기말 project의 일환으로 matlab에서 코딩
+
+
+
+
+# 3. SoC_programming 
 
 ## ITEC412001 SoC 설계 및 프로그래밍/2020년 1학기/문병인
 
@@ -47,20 +66,4 @@
 
 ## project
 : baseball_game은 숫자 야구를 verilog code로 구현
-
-
-
-
-# ELEC473001 정보및부호이론/2020년 1학기/박정훈
-
-: 모든 내용들은 수업과 연관됨
-
-: 모든 내용들은 수업의 프로젝트 일환으로 스스로 구상 및 프로그래밍
-
-
-## huffman coding
-: 중간 project의 일환으로 matlab에서 코딩
-
-## channel coding (numbers)
-:기말 project의 일환으로 matlab에서 코딩
 
