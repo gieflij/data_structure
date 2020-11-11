@@ -35,7 +35,7 @@
 
 
 
-# 2. [Information_theory](https://github.com/gieflij/sw_github/tree/master/Information_theory)
+# < [Information_theory](https://github.com/gieflij/sw_github/tree/master/Information_theory) >
 
 ## ELEC473001 정보및부호이론/2020년 1학기/박정훈
 
@@ -105,7 +105,7 @@
 
 
 
-# 3. [SoC_programming](https://github.com/gieflij/sw_github/tree/master/SoC_programming)
+# < [SoC_programming](https://github.com/gieflij/sw_github/tree/master/SoC_programming) >
 
 ## ITEC412001 SoC 설계 및 프로그래밍/2020년 1학기/문병인
 
