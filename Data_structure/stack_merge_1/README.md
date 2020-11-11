@@ -14,7 +14,9 @@
 
 ## Test execution
 
+```
 make all
+```
 
 
 ## Result
