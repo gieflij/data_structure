@@ -48,13 +48,17 @@
 
 :기말 project의 일환으로 matlab에서 코딩
 
-----------------------------------------------
-: encoder는 shift registers의 개념 이용
+- encoder는 shift registers의 개념 이용
+- decoder는 viterbi algorithm 이용
+- channel은 p =0일 때의 BSC (Binary Symmetric Channel) 이용
 
-: decoder는 viterbi algorithm 이용
+- 코드 설명
+  ---------------------------------------------------------
+  - channel dencoder, BSC
+    - original input 1000 bit는 0과 1로 무작위 생성
+    - convolutional encoding 단계에서 한 번에 2 bit씩 불러와 p1과 p0 간단히 생성
+  ---------------------------------------------------------
 
-: channel은 p =0일 때의 BSC (Binary Symmetric Channel) 이용
-----------------------------------------------
 
 #### 
 
