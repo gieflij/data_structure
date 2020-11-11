@@ -27,7 +27,7 @@
 
 
 
-# 2. [Information_theory] (https://github.com/gieflij/sw_github/tree/master/Information_theory)
+# 2. [Information_theory](https://github.com/gieflij/sw_github/tree/master/Information_theory)
 
 ## ELEC473001 정보및부호이론/2020년 1학기/박정훈
 
