@@ -9,7 +9,7 @@
 - 2개의 stack을 합성해서 하나의 stack으로 생성
 - push와 pop만 이용
 
-### stack_merge_1
+### [stack_merge_1](https://github.com/gieflij/sw_github/tree/master/Data_structure/stack_merge_1)
 
 - 동작 설명
 
