@@ -121,8 +121,39 @@ testbench 결과 저장 : result.txt
 
 - Run Simulation
 
+#### 2. 4 bit synchronous BCD counter
+
+- 10개의 BCD 코드 값 (0000, 0001, ,,, , 1001)을 상태 값으로 가지는 counter
+
+- 4 bit라서 4개의 flip flop 필요
+
+- bcd_counter.v 작성
+
+- tb_bcd_counter.v 작성
+
+- 완성된 testbench를 simulation sources에서 top으로 지정
+
+- Run Simulation
+
+#### 3. FSM : vending machine
+
+- vending_machine.v 작성
+ 
+- tb_vending_machine.v 작성
+
+- 완성된 testbench를 simulation sources에서 top으로 지정
+
+- Run Simulation
+
 ### results
 
 #### 1. JK filp flop
 
+![image](https://user-images.githubusercontent.com/45198475/98810617-d68ea680-2462-11eb-8311-cc49e67525ad.png)
+
+#### 2. 4 bit BCD counter
+
+
+
+#### 3. FSM : vending machine
 
